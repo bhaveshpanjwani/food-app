@@ -6,7 +6,7 @@ import 'package:http/http.dart';
 
 class ApiService{
   final endpoint = "";
-  Future<List<Article>> getArticle() async{
+  Future<List<udit-app>> getArticle() async{
     Response response = await get(Uri.parse(endpoint));
 
     if(response.statusCode == 200){
